@@ -1,0 +1,149 @@
+#projects-container {
+  margin-top: 50vh;
+  padding: 0;
+  margin-left: 35vh;
+  margin-right: 35vh;
+}
+
+#projects-container h2{
+  font-size: 20px;
+  color: #3E85FF;
+  font-weight: 700;
+  margin: 0;
+}
+
+#projects-container h4{
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 7vh;
+}
+
+.project{
+  display: flex;
+  gap: 5vh;
+  margin-bottom: 20vh;
+}
+
+.project-img{
+  width: 400px;
+  height: 100%;
+}
+
+.project-text h3{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.project-text p{
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #7A7A7A;
+}
+
+.image-container-project {
+  position: relative;
+  /* Necesario para posicionar el texto */
+  display: inline-block;
+  text-align: center;
+  /* Alinear el texto debajo de la imagen */
+  cursor: pointer;
+  /* Indicar que es interactivo */
+  margin-left: 30px;
+}
+
+.image-container-project img {
+  width: 25px;
+  /* Ajusta el tamaño de la imagen */
+  height: auto;
+  transition: transform 0.3s ease;
+  /* Animación para un efecto suave */
+}
+
+.image-container-project .image-text {
+  position: absolute;
+  bottom: -20px;
+  /* Ajusta la posición del texto debajo de la imagen */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #333;
+  /* Color del texto */
+  opacity: 0;
+  /* Invisible por defecto */
+  transition: opacity 0.3s ease;
+  /* Animación de entrada/salida */
+  pointer-events: none;
+  /* Evitar interacción con el texto */
+}
+
+.image-container-project:hover img {
+  transform: scale(1.1);
+  /* Escala la imagen al pasar el cursor */
+}
+
+.image-container-project:hover .image-text {
+  opacity: 1;
+  /* Muestra el texto */
+}
+
+
+
+.buttons-project{
+  display: flex;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px; /* Espaciado entre el icono y el texto */
+  padding: 8px 16px; /* Espaciado interno del botón */
+  background-color: #333; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  border: none; /* Sin bordes */
+  border-radius: 20px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+  background-color: #444; /* Color de fondo al pasar el mouse */
+  color: #fff;
+}
+
+.github-icon {
+  width: 16px; /* Tamaño del icono */
+  height: 16px;
+}
+
+.demo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px; /* Espaciado entre el icono y el texto */
+  padding: 8px 16px; /* Espaciado interno del botón */
+  background-color: #3E84FF; /* Color de fondo azul */
+  color: white; /* Color del texto */
+  border: none; /* Sin bordes */
+  border-radius: 20px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 12px; /* Tamaño del texto */
+  font-weight: 500; /* Grosor del texto */
+  transition: background-color 0.3s ease; /* Transición suave en hover */
+}
+
+.demo-button:hover {
+  background-color: #336FCC; /* Color más oscuro al pasar el mouse */
+  color: #fff;
+}
+
+.button-icon {
+  width: 15px;
+  height: 16px;
+}
