@@ -25,7 +25,7 @@
     transition: transform 0.3s ease;
 }
 
-.contact-icons a:hover{
+.contact-icons a:hover {
     transform: scale(1.1);
 }
 
@@ -49,7 +49,7 @@
     color: #000;
 }
 
-.contact-title-container span{
+.contact-title-container span {
     font-size: 48px;
     margin: 0;
     font-weight: 800;
@@ -57,4 +57,67 @@
 
 .contact-title-container:hover {
     color: #3E84FF;
+}
+
+@media (max-width: 1325px) {
+    .contact-section {
+        padding-left: 25vh;
+        padding-right: 25vh;
+    }
+}
+
+@media (max-width: 1025px) {
+    .contact-icons {
+        width: 60%;
+    }
+
+    .red-contact {
+        width: 28px;
+    }
+
+    .contact-icons a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 825px) {
+    .contact-section {
+        padding-left: 15vh;
+        padding-right: 15vh;
+    }
+
+    .contact-title {
+        font-size: 38px;
+    }
+
+    .contact-title-container span {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 610px) {
+    .contact-section {
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+
+    .contact-icons {
+        width: 100%;
+        margin-top: 4vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .contact-section {
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .contact-title-container span {
+        font-size: 28px;
+    }
 }

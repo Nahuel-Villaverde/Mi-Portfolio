@@ -5,38 +5,46 @@
   margin-right: 35vh;
 }
 
-#projects-container h2{
+#projects-container h2 {
   font-size: 20px;
   color: #3E85FF;
   font-weight: 700;
   margin: 0;
 }
 
-#projects-container h4{
+#projects-container h4 {
   font-size: 24px;
   font-weight: 600;
   margin-top: 8px;
   margin-bottom: 7vh;
 }
 
-.project{
+.project {
   display: flex;
   gap: 5vh;
   margin-bottom: 20vh;
+  align-items: center;
 }
 
-.project-img{
+.project-img {
   width: 400px;
-  height: 100%;
+  height: auto;
+  max-height: 260px;
 }
 
-.project-text h3{
+.project-text {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.project-text h3 {
   margin: 0;
   font-size: 20px;
   font-weight: 700;
 }
 
-.project-text p{
+.project-text p {
   margin-top: 8px;
   font-size: 15px;
   font-weight: 400;
@@ -91,7 +99,7 @@
 
 
 
-.buttons-project{
+.buttons-project {
   display: flex;
   margin-top: 24px;
   gap: 16px;
@@ -101,24 +109,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px; /* Espaciado entre el icono y el texto */
-  padding: 8px 16px; /* Espaciado interno del botón */
-  background-color: #333; /* Color de fondo del botón */
-  color: white; /* Color del texto */
-  border: none; /* Sin bordes */
-  border-radius: 20px; /* Bordes redondeados */
+  gap: 6px;
+  /* Espaciado entre el icono y el texto */
+  padding: 8px 16px;
+  /* Espaciado interno del botón */
+  background-color: #333;
+  /* Color de fondo del botón */
+  color: white;
+  /* Color del texto */
+  border: none;
+  /* Sin bordes */
+  border-radius: 20px;
+  /* Bordes redondeados */
   cursor: pointer;
   font-size: 12px;
   transition: background-color 0.3s ease;
 }
 
 .github-button:hover {
-  background-color: #444; /* Color de fondo al pasar el mouse */
+  background-color: #444;
+  /* Color de fondo al pasar el mouse */
   color: #fff;
 }
 
 .github-icon {
-  width: 16px; /* Tamaño del icono */
+  width: 16px;
+  /* Tamaño del icono */
   height: 16px;
 }
 
@@ -126,24 +142,166 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px; /* Espaciado entre el icono y el texto */
-  padding: 8px 16px; /* Espaciado interno del botón */
-  background-color: #3E84FF; /* Color de fondo azul */
-  color: white; /* Color del texto */
-  border: none; /* Sin bordes */
-  border-radius: 20px; /* Bordes redondeados */
+  gap: 6px;
+  /* Espaciado entre el icono y el texto */
+  padding: 8px 16px;
+  /* Espaciado interno del botón */
+  background-color: #3E84FF;
+  /* Color de fondo azul */
+  color: white;
+  /* Color del texto */
+  border: none;
+  /* Sin bordes */
+  border-radius: 20px;
+  /* Bordes redondeados */
   cursor: pointer;
-  font-size: 12px; /* Tamaño del texto */
-  font-weight: 500; /* Grosor del texto */
-  transition: background-color 0.3s ease; /* Transición suave en hover */
+  font-size: 12px;
+  /* Tamaño del texto */
+  font-weight: 500;
+  /* Grosor del texto */
+  transition: background-color 0.3s ease;
+  /* Transición suave en hover */
 }
 
 .demo-button:hover {
-  background-color: #336FCC; /* Color más oscuro al pasar el mouse */
+  background-color: #336FCC;
+  /* Color más oscuro al pasar el mouse */
   color: #fff;
 }
 
 .button-icon {
   width: 15px;
   height: 16px;
+}
+
+@media (max-width: 1365px) {
+  #projects-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+  }
+
+  .project-img {
+    width: 340px;
+    height: auto;
+  }
+
+  .buttons-project {
+    margin-top: 16px;
+  }
+
+  .project-text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .project {
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .a-img-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+
+  .project-text p {
+    font-size: 15px;
+  }
+
+  .project-text h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .project-text p {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+
+  .project-text {
+    max-width: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons-project {
+    justify-content: space-around;
+  }
+
+  .github-button {
+    width: 100%;
+  }
+
+  .demo-button {
+    width: 100%;
+  }
+
+  .projects-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #projects-container h2 {
+    text-align: center;
+  }
+
+  #projects-container h4 {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 910px) {
+  .image-container-project {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 825px) {
+  #projects-container {
+    margin-left: 15vh;
+    margin-right: 15vh;
+  }
+
+  .projects-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 610px) {
+  #projects-container {
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  .image-container-project {
+    margin-left: 15px;
+  }
+
+  .image-container-project img {
+    width: 20px;
+  }
+}
+
+@media (max-width: 525px) {
+  .projects-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  #projects-container {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
 }

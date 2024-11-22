@@ -12,6 +12,7 @@ const Projects = () => {
             href="https://www.youtube.com/watch?v=aHsyxhLNiyE"
             target="_blank"
             rel="noopener noreferrer"
+            classname="a-img-container"
           >
             <img className='project-img' src="Rectangle 5.png" alt="Imagen del proyecto" />
           </a>
@@ -74,6 +75,7 @@ const Projects = () => {
             href="https://www.youtube.com/watch?v=tu-video-id"
             target="_blank"
             rel="noopener noreferrer"
+            classname="a-img-container"
           ><img className='project-img' src="skyvoyager.png" alt="Imagen del proyecto" />
           </a>
           <div className='project-text'>
@@ -123,6 +125,7 @@ const Projects = () => {
             href="https://proyecto-santi.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
+            classname="a-img-container"
           ><img className='project-img' src="santi.png" alt="Imagen del proyecto" />
           </a>
           <div className='project-text'>
@@ -181,6 +184,7 @@ const Projects = () => {
             href="https://pokedex-orcin-five.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
+            classname="a-img-container"
           ><img className='project-img' src="pokedex.png" alt="Imagen del proyecto" />
           </a>
           <div className='project-text'>

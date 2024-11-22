@@ -43,7 +43,7 @@ const Home = () => {
       </div>
       <div className='tech-tecnology animate__animated animate__fadeInLeft'>
         <h5>Tech Stack</h5>
-        <div>
+        <div className='skills-container'>
           <div className="image-container">
             <img src="./javascript_icon_130900 1.png" alt="JavaScript Icon" class="icon-image" />
             <span className="image-text">JavaScript</span>
