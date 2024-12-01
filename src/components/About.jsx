@@ -7,7 +7,7 @@ const About = () => {
       <div className='about-text' >
         <h2 data-aos="fade-right" >Sobre mí</h2>
         <h4 data-aos="fade-right" >Programador Full-Stack comprometido con el aprendizaje</h4>
-        <p data-aos="fade-right" >Comencé mi camino aprendiendo Diseño Ux/Ui, para luego adentrarme en la programación, hice 5 cursos en coderhouse en los cuales aprendí infinidad de herramientas.<br />Luego inicié ayudando a un programador con pequeñas tareas, mientras creaba numerosos proyectos para demostrar mis habilidades.<br />Trabajé en equipo e individualmente, tuve infinidad de problemas, pero con tiempo y dedicacion pude llevarme un aprendizaje de cada uno de ellos.</p>
+        <p data-aos="fade-right" >Comencé mi camino aprendiendo Diseño Ux/Ui, para luego adentrarme en la programación, hice 5 cursos en coderhouse en los cuales aprendí infinidad de herramientas.<br />Luego inicié ayudando a un programador con pequeñas tareas, mientras creaba numerosos proyectos para demostrar mis habilidades.<br />Trabajé en equipo e individualmente, tuve infinidad de problemas, pero con tiempo y dedicacion pude llevarme un aprendizaje de cada uno de ellos.<br />Actualmente manejo Javascript, React, MongoDB, NodeJs, ExpressJs, y figma para los diseños.</p>
       </div>
       <div className='about-end'>
         <h4 data-aos="fade-right" >Si estás interesado en conocer más sobre mí, puedes descargar mi CV:</h4>

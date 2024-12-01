@@ -120,4 +120,21 @@
     .contact-title-container span {
         font-size: 28px;
     }
+
+    .red-contact {
+        width: 20px;
+    }
+
+    .contact-icons a {
+        font-size: 12px;
+    }
+
+    .contact-title {
+        font-size: 26px;
+    }
+
+    .contact-title-container span {
+        font-size: 26px;
+    }
+
 }

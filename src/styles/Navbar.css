@@ -82,6 +82,9 @@ section {
     margin: 0;
   }
 
+  nav {
+    margin-bottom: 8vh;
+  }
 }
 
 @media (max-width: 610px) {

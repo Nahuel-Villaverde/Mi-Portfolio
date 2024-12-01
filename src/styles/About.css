@@ -71,13 +71,44 @@
     .about-container {
         margin-left: 10vh;
         margin-right: 10vh;
+        margin-top: 40vh;
     }
 
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .about-end {
+        margin-top: 4vh;
+    }
 }
 
 @media (max-width: 420px) {
     .about-container {
         margin-left: 3vh;
         margin-right: 3vh;
+    }
+
+    .about-text h4 {
+        font-size: 18px;
+    }
+
+    .about-text h2 {
+        font-size: 15px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-end h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .button-about {
+        background-color: #3E84FF;
+        padding: 8px 34px;
+        font-size: 15px;
     }
 }

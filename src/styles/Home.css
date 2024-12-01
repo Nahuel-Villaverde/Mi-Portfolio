@@ -88,7 +88,7 @@
     /* Animación para un efecto suave */
 }
 
-.skills-container{
+.skills-container {
     height: 38px;
 }
 
@@ -183,7 +183,7 @@
         font-size: 18px;
     }
 
-    .skills-container{
+    .skills-container {
         height: 30px;
     }
 
@@ -272,7 +272,7 @@
         margin-left: 25px;
     }
 
-    .skills-container{
+    .skills-container {
         height: 24px;
     }
 
@@ -316,7 +316,7 @@
         margin-left: 20px;
     }
 
-    .skills-container{
+    .skills-container {
         height: 20px;
     }
 
@@ -330,58 +330,48 @@
     .home-container {
         margin: 0 10vh;
     }
-}
 
-@media (max-width: 550px) {
-    .presentation-text h1 {
-        font-size: 28px;
-        margin-top: 10px;
+    .presentation-container {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .presentation-text {
-        max-width: 180px;
+        max-width: 350px;
     }
 
-    .presentation-text span {
-        font-size: 24px;
+    .presentation-text h1 {
+        text-align: center;
     }
 
     .presentation-text h4 {
-        font-size: 12px;
+        max-width: 300px;
+        text-align: center;
     }
 
-    .big-image img {
-        width: 170px;
+    .redes-home {
+        display: flex;
+        justify-content: center;
     }
 
     .tech-tecnology {
-        margin-top: 3vh;
+        justify-content: center;
+    }
+
+    .presentation-text h4 {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .tech-tecnology {
+        margin-top: 0;
     }
 }
 
 @media (max-width: 500px) {
-    .presentation-text h1 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .presentation-text span {
-        font-size: 18px;
-    }
-
-    .presentation-text h4 {
-        font-size: 10px;
-        margin-top: 0;
-    }
-
-    .presentation-text {
-        max-width: 140px;
-    }
-
-    .big-image img {
-        width: 140px;
-    }
-
     .redes-home img {
         width: 20px;
     }
@@ -391,14 +381,14 @@
         padding-right: 12px;
     }
 
-    .skills-container{
+    .skills-container {
         height: 22px;
     }
 
     .image-container img {
         width: 16px;
     }
-    
+
     .image-container {
         margin-left: 15px;
     }
@@ -409,17 +399,18 @@
         margin: 0 3vh;
     }
 
-    .presentation-text {
-        max-width: 170px;
-    }
-}
-
-@media (max-width: 360px) {
-    .home-container {
-        margin: 0 3vh;
+    .big-image img {
+        width: 180px;
     }
 
-    .presentation-text {
-        max-width: 140px;
+    .presentation-text h1 {
+        font-size: 26px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .presentation-text h4 {
+        font-size: 13px;
+        margin-top: 12px;
     }
 }
