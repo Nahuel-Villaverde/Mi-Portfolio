@@ -24,4 +24,4 @@ const About = () => {
   );
 };
 
-export default About;  // Asegúrate de que esté exportado por defecto
+export default About; 

@@ -72,7 +72,7 @@ const Projects = () => {
 
         <div className="project" data-aos="fade-right">
           <a
-            href="https://www.youtube.com/watch?v=tu-video-id"
+            href="https://sky-voyager-kohl.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             classname="a-img-container"
@@ -96,7 +96,7 @@ const Projects = () => {
 
             <div className='buttons-project'>
               <a
-                href="https://github.com/Nahuel-Villaverde/Vortex-Concesionaria"
+                href="https://github.com/Nahuel-Villaverde/SkyVoyager"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="github-button"
@@ -106,7 +106,7 @@ const Projects = () => {
               </a>
 
               <a
-                href="https://www.youtube.com/watch?v=tu-video-id"
+                href="https://sky-voyager-kohl.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="demo-button"

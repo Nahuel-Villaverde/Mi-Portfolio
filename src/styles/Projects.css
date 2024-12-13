@@ -53,48 +53,36 @@
 
 .image-container-project {
   position: relative;
-  /* Necesario para posicionar el texto */
   display: inline-block;
   text-align: center;
-  /* Alinear el texto debajo de la imagen */
   cursor: pointer;
-  /* Indicar que es interactivo */
   margin-left: 30px;
 }
 
 .image-container-project img {
   width: 25px;
-  /* Ajusta el tamaño de la imagen */
   height: auto;
   transition: transform 0.3s ease;
-  /* Animación para un efecto suave */
 }
 
 .image-container-project .image-text {
   position: absolute;
   bottom: -20px;
-  /* Ajusta la posición del texto debajo de la imagen */
   left: 50%;
   transform: translateX(-50%);
   font-size: 14px;
   color: #333;
-  /* Color del texto */
   opacity: 0;
-  /* Invisible por defecto */
   transition: opacity 0.3s ease;
-  /* Animación de entrada/salida */
   pointer-events: none;
-  /* Evitar interacción con el texto */
 }
 
 .image-container-project:hover img {
   transform: scale(1.1);
-  /* Escala la imagen al pasar el cursor */
 }
 
 .image-container-project:hover .image-text {
   opacity: 1;
-  /* Muestra el texto */
 }
 
 
@@ -110,17 +98,11 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  /* Espaciado entre el icono y el texto */
   padding: 8px 16px;
-  /* Espaciado interno del botón */
   background-color: #333;
-  /* Color de fondo del botón */
   color: white;
-  /* Color del texto */
   border: none;
-  /* Sin bordes */
   border-radius: 20px;
-  /* Bordes redondeados */
   cursor: pointer;
   font-size: 12px;
   transition: background-color 0.3s ease;
@@ -128,13 +110,11 @@
 
 .github-button:hover {
   background-color: #444;
-  /* Color de fondo al pasar el mouse */
   color: #fff;
 }
 
 .github-icon {
   width: 16px;
-  /* Tamaño del icono */
   height: 16px;
 }
 
@@ -143,29 +123,19 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  /* Espaciado entre el icono y el texto */
   padding: 8px 16px;
-  /* Espaciado interno del botón */
   background-color: #3E84FF;
-  /* Color de fondo azul */
   color: white;
-  /* Color del texto */
   border: none;
-  /* Sin bordes */
   border-radius: 20px;
-  /* Bordes redondeados */
   cursor: pointer;
   font-size: 12px;
-  /* Tamaño del texto */
   font-weight: 500;
-  /* Grosor del texto */
   transition: background-color 0.3s ease;
-  /* Transición suave en hover */
 }
 
 .demo-button:hover {
   background-color: #336FCC;
-  /* Color más oscuro al pasar el mouse */
   color: #fff;
 }
 

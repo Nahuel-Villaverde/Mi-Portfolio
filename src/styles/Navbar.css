@@ -1,6 +1,4 @@
-/* src/styles/Navbar.css */
 
-/* El navbar ahora tiene un fondo, padding, y un ancho 100% */
 nav {
   width: 100%;
   background-color: #ffffff;
@@ -9,7 +7,6 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Centra los elementos de la lista de navegación */
 nav ul {
   list-style-type: none;
   margin: 0 35vh;
@@ -18,13 +15,10 @@ nav ul {
   justify-content: space-between;
 }
 
-/* Espaciado de los elementos de la lista */
 nav li {
   margin: 0;
-  /* Espaciado entre los elementos */
 }
 
-/* Estilos de los enlaces */
 nav a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -34,7 +28,6 @@ nav a {
   transition: 210ms;
 }
 
-/* Estilo para el hover en los enlaces */
 nav a:hover {
   color: #3E85FF;
 }
@@ -42,7 +35,6 @@ nav a:hover {
 section {
   padding: 100px 20px;
   margin-top: 50px;
-  /* Para evitar que el navbar tape el contenido */
 }
 
 @media (max-width: 1325px) {

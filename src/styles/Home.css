@@ -56,23 +56,17 @@
 
 .image-container {
     position: relative;
-    /* Necesario para posicionar el texto */
     display: inline-block;
     text-align: center;
-    /* Alinear el texto debajo de la imagen */
     cursor: pointer;
-    /* Indicar que es interactivo */
     margin-left: 40px;
 }
 
 .image-container-redes {
     position: relative;
-    /* Necesario para posicionar el texto */
     display: inline-block;
     text-align: center;
-    /* Alinear el texto debajo de la imagen */
     cursor: pointer;
-    /* Indicar que es interactivo */
     margin-left: 12px;
 }
 
@@ -82,10 +76,8 @@
 
 .image-container-redes img {
     width: 38px;
-    /* Ajusta el tamaño de la imagen */
     height: auto;
     transition: transform 0.3s ease;
-    /* Animación para un efecto suave */
 }
 
 .skills-container {
@@ -94,66 +86,51 @@
 
 .image-container img {
     width: 38px;
-    /* Ajusta el tamaño de la imagen */
     height: auto;
     transition: transform 0.3s ease;
-    /* Animación para un efecto suave */
 }
 
 .image-container-redes a .image-text {
     position: absolute;
     bottom: -20px;
-    /* Ajusta la posición del texto debajo de la imagen */
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
     color: #333;
-    /* Color del texto */
     opacity: 0;
-    /* Invisible por defecto */
     transition: opacity 0.3s ease;
-    /* Animación de entrada/salida */
     pointer-events: none;
-    /* Evitar interacción con el texto */
     font-weight: 400;
 }
 
 .image-container .image-text {
     position: absolute;
     bottom: -20px;
-    /* Ajusta la posición del texto debajo de la imagen */
     left: 50%;
     transform: translateX(-50%);
     font-size: 14px;
     color: #333;
-    /* Color del texto */
     opacity: 0;
-    /* Invisible por defecto */
     transition: opacity 0.3s ease;
-    /* Animación de entrada/salida */
     pointer-events: none;
-    /* Evitar interacción con el texto */
 }
 
 .image-container:hover img {
     transform: scale(1.1);
-    /* Escala la imagen al pasar el cursor */
 }
 
 .image-container:hover .image-text {
     opacity: 1;
-    /* Muestra el texto */
 }
 
 
 .image-container-redes:hover img {
     transform: scale(1.1);
-    /* Escala la imagen al pasar el cursor */
 }
 
 .image-container-redes:hover .image-text {
     opacity: 1;
-    /* Muestra el texto */
+
 }
 
 @media (max-width: 1325px) {
@@ -397,6 +374,7 @@
 @media (max-width: 420px) {
     .home-container {
         margin: 0 3vh;
+        margin-top: 5vh;
     }
 
     .big-image img {

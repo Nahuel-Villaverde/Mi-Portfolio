@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
@@ -11,7 +10,7 @@ import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Inicializa AOS con duración de 1s
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
