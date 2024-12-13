@@ -14,13 +14,13 @@ const Home = () => {
           <div className='redes-home animate__animated animate__fadeInLeft'>
             <div className="image-container-redes">
               <a href="https://www.linkedin.com/in/nahuel-villaverde" target="_blank" rel="noopener noreferrer">
-                <img className='red-linkedin-home' src="/LinkedIn (1).png" alt="Linkedin" />
+                <img className='red-linkedin-home' src="/LinkedIn (1).png" alt="Linkedin imagen" />
                 <span className="image-text">Linkedin</span>
               </a>
             </div>
             <div className="image-container-redes">
               <a href="https://github.com/Nahuel-Villaverde" target="_blank" rel="noopener noreferrer">
-                <img className='red-github-home' src="/GitHub.png" alt="Github" />
+                <img className='red-github-home' src="/GitHub.png" alt="Github imagen" />
                 <span className="image-text">GitHub</span>
               </a>
             </div>
@@ -31,14 +31,14 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img className='red-curriculum-home' src="/resume (1).png" alt="Github" />
+                <img className='red-curriculum-home' src="/resume (1).png" alt="Curriculum imagen" />
                 <span className="image-text">Curriculum</span>
               </a>
             </div>
           </div>
         </div>
         <div className='big-image animate__animated animate__fadeInRight'>
-          <img src="/Ellipse 1.png" alt="Github" />
+          <img src="/Ellipse 1.png" alt="Foto de perfil" />
         </div>
       </div>
       <div className='tech-tecnology animate__animated animate__fadeInLeft'>
@@ -49,23 +49,23 @@ const Home = () => {
             <span className="image-text">JavaScript</span>
           </div>
           <div className="image-container">
-            <img src="Vector.png" alt="JavaScript Icon" class="icon-image" />
+            <img src="Vector.png" alt="React Icon" class="icon-image" />
             <span className="image-text">React</span>
           </div>
           <div className="image-container">
-            <img src="mongodb_original_wordmark_logo_icon_146425 1.png" alt="JavaScript Icon" class="icon-image" />
+            <img src="mongodb_original_wordmark_logo_icon_146425 1.png" alt="MongoDB Icon" class="icon-image" />
             <span className="image-text">MongoDB</span>
           </div>
           <div className="image-container">
-            <img src="nodejs_plain_logo_icon_146409 1.png" alt="JavaScript Icon" class="icon-image" />
+            <img src="nodejs_plain_logo_icon_146409 1.png" alt="NodeJs Icon" class="icon-image" />
             <span className="image-text">NodeJs</span>
           </div>
           <div className="image-container">
-            <img src="icons8-express-js-500 1.png" alt="JavaScript Icon" class="icon-image" />
+            <img src="icons8-express-js-500 1.png" alt="ExpressJs Icon" class="icon-image" />
             <span className="image-text">ExpressJs</span>
           </div>
           <div className="image-container">
-            <img src="figma_logo_icon_147289 1.png" alt="JavaScript Icon" class="icon-image" />
+            <img src="figma_logo_icon_147289 1.png" alt="Figma Icon" class="icon-image" />
             <span className="image-text">Figma</span>
           </div>
         </div>

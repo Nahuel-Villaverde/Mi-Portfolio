@@ -6,15 +6,15 @@ const Contact = () => {
     <section className="contact-section">
       <div className="contact-icons">
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-          <img className='red-contact' src="/LinkedIn (1).png" alt="Linkedin" />
+          <img className='red-contact' src="/LinkedIn (1).png" alt="Linkedin imagen" />
           Linkedin
         </a>
         <a href="https://github.com/Nahuel-Villaverde" target="_blank" rel="noopener noreferrer">
-          <img className='red-contact' src="/GitHub.png" alt="Linkedin" />
+          <img className='red-contact' src="/GitHub.png" alt="Github imagen" />
           GitHub
         </a>
         <a href="mailto:nahuelvillaverdeoficial@gmail.com">
-          <img className='red-contact' src="/correo 1.png" alt="Linkedin" />
+          <img className='red-contact' src="/correo 1.png" alt="Gmail imagen" />
           Gmail
         </a>
       </div>

@@ -14,7 +14,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             classname="a-img-container"
           >
-            <img className='project-img' src="Rectangle 5.png" alt="Imagen del proyecto" />
+            <img className='project-img' src="Rectangle 5.png" alt="Imagen del proyecto 1" />
           </a>
           <div className='project-text'>
             <h3>Vortex Concesionaria 🚗</h3>
@@ -24,23 +24,23 @@ const Projects = () => {
               <span className="image-text">JavaScript</span>
             </div>
             <div className="image-container-project">
-              <img src="Vector.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="Vector.png" alt="React Icon" class="icon-image" />
               <span className="image-text">React</span>
             </div>
             <div className="image-container-project">
-              <img src="mongodb_original_wordmark_logo_icon_146425 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="mongodb_original_wordmark_logo_icon_146425 1.png" alt="MongoDB Icon" class="icon-image" />
               <span className="image-text">MongoDB</span>
             </div>
             <div className="image-container-project">
-              <img src="nodejs_plain_logo_icon_146409 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="nodejs_plain_logo_icon_146409 1.png" alt="NodeJs Icon" class="icon-image" />
               <span className="image-text">NodeJs</span>
             </div>
             <div className="image-container-project">
-              <img src="icons8-express-js-500 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="icons8-express-js-500 1.png" alt="ExpressJs Icon" class="icon-image" />
               <span className="image-text">ExpressJs</span>
             </div>
             <div className="image-container-project">
-              <img src="figma_logo_icon_147289 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="figma_logo_icon_147289 1.png" alt="Figma Icon" class="icon-image" />
               <span className="image-text">Figma</span>
             </div>
 
@@ -51,7 +51,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="github-button"
               >
-                <img src="/GitHub (1).png" alt="GitHub" className="github-icon" />
+                <img src="/GitHub (1).png" alt="GitHub icono" className="github-icon" />
                 <span>GitHub</span>
               </a>
 
@@ -61,7 +61,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="demo-button"
               >
-                <img src="/camera.png" alt="Demostración" className="button-icon" />
+                <img src="/camera.png" alt="Demostración icono" className="button-icon" />
                 <span>Demostración</span>
               </a>
 
@@ -76,7 +76,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             classname="a-img-container"
-          ><img className='project-img' src="skyvoyager.png" alt="Imagen del proyecto" />
+          ><img className='project-img' src="skyvoyager.png" alt="Imagen del proyecto 2" />
           </a>
           <div className='project-text'>
             <h3>SkyVoyager compañía de viajes espaciales 🚀</h3>
@@ -86,11 +86,11 @@ const Projects = () => {
               <span className="image-text">JavaScript</span>
             </div>
             <div className="image-container-project">
-              <img src="Vector.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="Vector.png" alt="React Icon" class="icon-image" />
               <span className="image-text">React</span>
             </div>
             <div className="image-container-project">
-              <img src="figma_logo_icon_147289 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="figma_logo_icon_147289 1.png" alt="Figma Icon" class="icon-image" />
               <span className="image-text">Figma</span>
             </div>
 
@@ -101,7 +101,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="github-button"
               >
-                <img src="/GitHub (1).png" alt="GitHub" className="github-icon" />
+                <img src="/GitHub (1).png" alt="GitHub icono" className="github-icon" />
                 <span>GitHub</span>
               </a>
 
@@ -111,7 +111,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="demo-button"
               >
-                <img src="/red.png" alt="Demostración" className="button-icon" />
+                <img src="/red.png" alt="Demostración icono" className="button-icon" />
                 <span>Demostración</span>
               </a>
 
@@ -126,7 +126,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             classname="a-img-container"
-          ><img className='project-img' src="santi.png" alt="Imagen del proyecto" />
+          ><img className='project-img' src="santi.png" alt="Imagen del proyecto 3" />
           </a>
           <div className='project-text'>
             <h3>Rutinas Personalizadas de Santi Graziano 💪</h3>
@@ -136,19 +136,19 @@ const Projects = () => {
               <span className="image-text">JavaScript</span>
             </div>
             <div className="image-container-project">
-              <img src="Vector.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="Vector.png" alt="React Icon" class="icon-image" />
               <span className="image-text">React</span>
             </div>
             <div className="image-container-project">
-              <img src="nodejs_plain_logo_icon_146409 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="nodejs_plain_logo_icon_146409 1.png" alt="NodeJs Icon" class="icon-image" />
               <span className="image-text">NodeJs</span>
             </div>
             <div className="image-container-project">
-              <img src="icons8-express-js-500 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="icons8-express-js-500 1.png" alt="ExpressJs Icon" class="icon-image" />
               <span className="image-text">ExpressJs</span>
             </div>
             <div className="image-container-project">
-              <img src="figma_logo_icon_147289 1.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="figma_logo_icon_147289 1.png" alt="Figma Icon" class="icon-image" />
               <span className="image-text">Figma</span>
             </div>
 
@@ -159,7 +159,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="github-button"
               >
-                <img src="/GitHub (1).png" alt="GitHub" className="github-icon" />
+                <img src="/GitHub (1).png" alt="GitHub icono" className="github-icon" />
                 <span>GitHub</span>
               </a>
 
@@ -169,7 +169,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="demo-button"
               >
-                <img src="/red.png" alt="Demostración" className="button-icon" />
+                <img src="/red.png" alt="Demostración icono" className="button-icon" />
                 <span>Demostración</span>
               </a>
 
@@ -185,7 +185,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             classname="a-img-container"
-          ><img className='project-img' src="pokedex.png" alt="Imagen del proyecto" />
+          ><img className='project-img' src="pokedex.png" alt="Imagen del proyecto 4" />
           </a>
           <div className='project-text'>
             <h3>Explorador de Pokémon 🐉</h3>
@@ -195,7 +195,7 @@ const Projects = () => {
               <span className="image-text">JavaScript</span>
             </div>
             <div className="image-container-project">
-              <img src="Vector.png" alt="JavaScript Icon" class="icon-image" />
+              <img src="Vector.png" alt="React Icon" class="icon-image" />
               <span className="image-text">React</span>
             </div>
 
@@ -206,7 +206,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="github-button"
               >
-                <img src="/GitHub (1).png" alt="GitHub" className="github-icon" />
+                <img src="/GitHub (1).png" alt="GitHub icono" className="github-icon" />
                 <span>GitHub</span>
               </a>
 
@@ -216,7 +216,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="demo-button"
               >
-                <img src="/red.png" alt="Demostración" className="button-icon" />
+                <img src="/red.png" alt="Demostración icono" className="button-icon" />
                 <span>Demostración</span>
               </a>
 
