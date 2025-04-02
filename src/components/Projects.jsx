@@ -7,6 +7,61 @@ const Projects = () => {
       <h2 data-aos="fade-right">Proyectos</h2>
       <h4 data-aos="fade-right">Cada proyecto busca demostrar mis habilidades</h4>
       <div className="projects-container">
+
+      <div className="project" data-aos="fade-right">
+          <a
+            href="https://buenosaireshubia.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            classname="a-img-container"
+          ><img className='project-img' src="youngai.png" alt="Imagen del proyecto Young Ai Leaders" />
+          </a>
+          <div className='project-text'>
+            <h3>Young AI Leaders Buenos Aires Hub</h3>
+            <p>Una landing page en la que se presenta el Hub de Buenos Aires de Young Ai Leaders, una comunidad global impulsando la inteligencia artificial , con proyectos y conferencias para mejorar la colaboración y la comunicación en la Ia para el bien social.</p>
+            <div className="image-container-project" style={{ margin: '0px' }}>
+              <img src="./javascript_icon_130900 1.png" alt="JavaScript Icon" class="icon-image" />
+              <span className="image-text">JavaScript</span>
+            </div>
+            <div className="image-container-project">
+              <img src="Vector.png" alt="React Icon" class="icon-image" />
+              <span className="image-text">React</span>
+            </div>
+            <div className="image-container-project">
+              <img src="astro-icon.png" alt="Astro Icon" class="icon-image" />
+              <span className="image-text">Astro</span>
+            </div>
+            <div className="image-container-project">
+              <img src="figma_logo_icon_147289 1.png" alt="Figma Icon" class="icon-image" />
+              <span className="image-text">Figma</span>
+            </div>
+
+            <div className='buttons-project'>
+              <a
+                href="https://github.com/Nahuel-Villaverde/young-ai-bsas"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="github-button"
+              >
+                <img src="/GitHub (1).png" alt="GitHub icono" className="github-icon" />
+                <span>GitHub</span>
+              </a>
+
+              <a
+                href="https://buenosaireshubia.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="demo-button"
+              >
+                <img src="/red.png" alt="Demostración icono" className="button-icon" />
+                <span>Demostración</span>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
         <div className="project" data-aos="fade-right">
           <a
             href="https://www.youtube.com/watch?v=aHsyxhLNiyE"
