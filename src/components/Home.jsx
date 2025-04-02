@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="image-container-redes">
               <a
-                href="/Cv Nahuel Villaverde Actualizado.pdf"
+                href="/Cv Nahuel Villaverde.pdf"
                 download="Curriculum_Nahuel_Villaverde.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
