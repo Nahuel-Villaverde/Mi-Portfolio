@@ -45,6 +45,10 @@ const Home = () => {
         <h5>Tech Stack</h5>
         <div className='skills-container'>
           <div className="image-container">
+            <img src="astro-icon.png" alt="Astro Icon" class="icon-image" />
+            <span className="image-text">Astro</span>
+          </div>
+          <div className="image-container">
             <img src="./javascript_icon_130900 1.png" alt="JavaScript Icon" class="icon-image" />
             <span className="image-text">JavaScript</span>
           </div>
